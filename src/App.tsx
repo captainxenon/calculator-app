@@ -46,7 +46,7 @@ function App() {
     setValue(temp);
   };
 
-  const PressMeDaddy = (event: any) => {
+  const KeyPressHandler = (event: any) => {
     const inner = event.target.innerHTML;
 
     if (inner === "+" || inner === "-" || inner === "x" || inner === "/") {
@@ -99,7 +99,7 @@ function App() {
         <button
           className="key"
           onClick={(e: any) => {
-            PressMeDaddy(e);
+            KeyPressHandler(e);
           }}
         >
           1
@@ -107,7 +107,7 @@ function App() {
         <button
           className="key"
           onClick={(e: any) => {
-            PressMeDaddy(e);
+            KeyPressHandler(e);
           }}
         >
           2
@@ -115,7 +115,7 @@ function App() {
         <button
           className="key"
           onClick={(e: any) => {
-            PressMeDaddy(e);
+            KeyPressHandler(e);
           }}
         >
           3
@@ -123,7 +123,7 @@ function App() {
         <button
           className="key delete"
           onClick={(e: any) => {
-            PressMeDaddy(e);
+            KeyPressHandler(e);
           }}
         >
           DEL
@@ -131,7 +131,7 @@ function App() {
         <button
           className="key"
           onClick={(e: any) => {
-            PressMeDaddy(e);
+            KeyPressHandler(e);
           }}
         >
           4
@@ -139,7 +139,7 @@ function App() {
         <button
           className="key"
           onClick={(e: any) => {
-            PressMeDaddy(e);
+            KeyPressHandler(e);
           }}
         >
           5
@@ -147,7 +147,7 @@ function App() {
         <button
           className="key"
           onClick={(e: any) => {
-            PressMeDaddy(e);
+            KeyPressHandler(e);
           }}
         >
           6
@@ -155,7 +155,7 @@ function App() {
         <button
           className="key"
           onClick={(e: any) => {
-            PressMeDaddy(e);
+            KeyPressHandler(e);
           }}
         >
           +
@@ -163,7 +163,7 @@ function App() {
         <button
           className="key"
           onClick={(e: any) => {
-            PressMeDaddy(e);
+            KeyPressHandler(e);
           }}
         >
           7
@@ -171,7 +171,7 @@ function App() {
         <button
           className="key"
           onClick={(e: any) => {
-            PressMeDaddy(e);
+            KeyPressHandler(e);
           }}
         >
           8
@@ -179,7 +179,7 @@ function App() {
         <button
           className="key"
           onClick={(e: any) => {
-            PressMeDaddy(e);
+            KeyPressHandler(e);
           }}
         >
           9
@@ -187,7 +187,7 @@ function App() {
         <button
           className="key"
           onClick={(e: any) => {
-            PressMeDaddy(e);
+            KeyPressHandler(e);
           }}
         >
           0
@@ -195,7 +195,7 @@ function App() {
         <button
           className="key"
           onClick={(e: any) => {
-            PressMeDaddy(e);
+            KeyPressHandler(e);
           }}
         >
           /
@@ -203,7 +203,7 @@ function App() {
         <button
           className="key"
           onClick={(e: any) => {
-            PressMeDaddy(e);
+            KeyPressHandler(e);
           }}
         >
           .
@@ -211,7 +211,7 @@ function App() {
         <button
           className="key"
           onClick={(e: any) => {
-            PressMeDaddy(e);
+            KeyPressHandler(e);
           }}
         >
           -
@@ -219,7 +219,7 @@ function App() {
         <button
           className="key"
           onClick={(e: any) => {
-            PressMeDaddy(e);
+            KeyPressHandler(e);
           }}
         >
           x
@@ -227,7 +227,7 @@ function App() {
         <button
           className="key reset"
           onClick={(e: any) => {
-            PressMeDaddy(e);
+            KeyPressHandler(e);
           }}
         >
           RESET
@@ -235,7 +235,7 @@ function App() {
         <button
           className="key equals"
           onClick={(e: any) => {
-            PressMeDaddy(e);
+            KeyPressHandler(e);
           }}
         >
           =
