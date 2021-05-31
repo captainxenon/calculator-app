@@ -1,38 +1,86 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+* {
+  font-family: "Spartan", sans-serif;
+  background-color: hsl(222, 26%, 31%);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.App {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.top {
+  width: 40%;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.middle {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 125px;
+  width: 40%;
+  background-color: rgb(32, 36, 53);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.bottom {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr 2fr;
+  grid-template-rows: 2fr 2fr 2fr 2fr 2fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  height: 500px;
+  width: 38%;
+  background-color: rgb(44, 49, 69);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.key {
+  background-color: rgb(231, 226, 219);
+  color: black;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  font-size: 27px;
+  width: auto;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reset {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  width: auto;
+  background-color: rgb(104, 113, 150);
+  color: white;
+}
+
+.delete {
+  background-color: rgb(104, 113, 150);
+  color: white;
+}
+
+.equals {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  background-color: rgb(181, 65, 52);
+  color: white;
+  width: auto;
+}
+
+.value {
+  margin-right: 20px;
+  background-color: rgb(32, 36, 53);
 }
